@@ -1,0 +1,256 @@
+{
+  "schema": 1,
+  "description": "Hash allowlist for the sanitized public release tree (excluding this manifest).",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 482,
+      "sha256": "9092754465c9f4bb98f1c61ed99a50cc0fef812e6c773502c3c9a5aa58896198"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2200,
+      "sha256": "edc39d5c846877ea7d23b01c2def6fc46e4f25f111738c45d5c34338506b64af"
+    },
+    {
+      "path": "DISCLAIMER.md",
+      "bytes": 7196,
+      "sha256": "525b0add11a77846acf22f3e366a287a1a9bede053f16585799fd01cebcd6d9e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 28662,
+      "sha256": "d3095b61dbcce01ee9aa18201ae8e992fe4bfd72f84cc62687cb78d017179fd9"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1609,
+      "sha256": "9f979dcfeb2f8466d8b510b534192b46dda1ca8ac6d7fa27e9425122c8d1201c"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 1102,
+      "sha256": "8290d435a78ab02082d7e6af2e75e58ef514b4aad9941a4789ce88980609c85f"
+    },
+    {
+      "path": "data/managed-native-crosswalk-excerpt.csv",
+      "bytes": 16068,
+      "sha256": "c734af6be9662104bd1ee3ec92c55318427cd616d5afab350b5f9252b9c7411b"
+    },
+    {
+      "path": "data/method-record-excerpt.csv",
+      "bytes": 2586,
+      "sha256": "a8461b2843d7778581b5312d71553272b444c2bf32a8d45d27d283ce312821f0"
+    },
+    {
+      "path": "data/opcode_dispatch.csv",
+      "bytes": 21485,
+      "sha256": "7c61417ceb98cd1487bcc645810c0a381e26b3b114a75ffd5c4476bf51b18a25"
+    },
+    {
+      "path": "data/private-source-hashes.json",
+      "bytes": 738,
+      "sha256": "ab75e4c377bbf8bafe3a688322e04d6c16f5fbcc79695242b815068a3b8c0764"
+    },
+    {
+      "path": "data/public-evidence-summary.json",
+      "bytes": 1589,
+      "sha256": "7491bacf92e496ee758d6ab38b1f4efc936455a04fd5de0688d125b0688d6d20"
+    },
+    {
+      "path": "docs/architecture.md",
+      "bytes": 2437,
+      "sha256": "70486b5be66838e4edb4b53f54cc6c317852d784a907acec54080f8a54cc9822"
+    },
+    {
+      "path": "docs/ethics-and-scope.md",
+      "bytes": 1671,
+      "sha256": "e83c8841e662585bb1461a554a6d219037a08dd5a4b731f0c3e97283319008a2"
+    },
+    {
+      "path": "docs/findings.md",
+      "bytes": 3449,
+      "sha256": "ddcd194e1b724cfb90c4d9f311b4c379fe3d4a6edbd9e6623b86b3a94419823c"
+    },
+    {
+      "path": "docs/limitations.md",
+      "bytes": 2581,
+      "sha256": "b93490c84923d5672f20b9a86bee9e32c864bf347d96ed3fada4588bf9dc5846"
+    },
+    {
+      "path": "docs/methodology.md",
+      "bytes": 2230,
+      "sha256": "1d3e44d6b7fa112ba3a783cefd6b9e39b8957f72cf21e5980cf1906a64ef5a39"
+    },
+    {
+      "path": "docs/overview.md",
+      "bytes": 1884,
+      "sha256": "88e202af8f26bd9aa6d362d8e69ac00f64625cc6e3867bd80b9ee16146d98f3b"
+    },
+    {
+      "path": "docs/phase-history.md",
+      "bytes": 3233,
+      "sha256": "f46eaa28d19ccd0dece64340cc76976e921564a2de7226608f84cfd2b566216d"
+    },
+    {
+      "path": "docs/publication-audit.md",
+      "bytes": 5982,
+      "sha256": "2e4d2a6df62c84b60cb68c5314aa2e0e07f7a329e82c03b5f13d389369ae6c23"
+    },
+    {
+      "path": "docs/reproduction.md",
+      "bytes": 2364,
+      "sha256": "100622461bfffee8c3d0e44c7ab260ca5b6a1bfc853f56ee6cd686709b41b7cf"
+    },
+    {
+      "path": "examples/minimal-vmp/README.md",
+      "bytes": 859,
+      "sha256": "0201f9fa7a8e41620e9338f847c48d1c921a5e874728047b808c6a844860b60d"
+    },
+    {
+      "path": "examples/minimal-vmp/minimal.dat",
+      "bytes": 108,
+      "sha256": "53b3638961ef5ea2c9036f286d2e41d438558212b1990a46494791226897336f"
+    },
+    {
+      "path": "reports/README.md",
+      "bytes": 1712,
+      "sha256": "a0b04b53c93798f58c6a1b055dc4088863a28f2d84b20eeaf15b2f170a451fde"
+    },
+    {
+      "path": "reports/phase10/README.md",
+      "bytes": 1344,
+      "sha256": "de4b282e7352dbb13a28633a5152419399f88ddb9118436d249865e7b50bafc2"
+    },
+    {
+      "path": "reports/phase10/method-mapping.md",
+      "bytes": 1796,
+      "sha256": "d0fddf3dcf8376076d5c199b689048e391d2c66762106c22026154aa929513c0"
+    },
+    {
+      "path": "reports/phase11/README.md",
+      "bytes": 1758,
+      "sha256": "f2a6bfcbcc9da5465f00e165383daa57e5e0b22e5c2d99bffec8837be32888ee"
+    },
+    {
+      "path": "reports/phase11/activation_network_context.md",
+      "bytes": 4291,
+      "sha256": "d6b7ad24e50f02fae441a78b1c6217918a0a06dd984e878e83b0a7c2cf729a1b"
+    },
+    {
+      "path": "reports/phase11/detection_correlation.md",
+      "bytes": 7519,
+      "sha256": "72bfe29eb761ab4afeb468ca93320deccf1db5908e145c8a0484411f9e3177af"
+    },
+    {
+      "path": "reports/phase11/executive_summary.md",
+      "bytes": 6527,
+      "sha256": "25c00e1eb44e584a670fd9136b699757e66b45c40c59fc24ec51060b0cd8e54f"
+    },
+    {
+      "path": "reports/phase11/native_callgraph.md",
+      "bytes": 5015,
+      "sha256": "5997bd1e2d6c73ef3a39704e9370427086f7e2bdb4f3429374b4a37b6224c22f"
+    },
+    {
+      "path": "reports/phase11/native_execution_pipeline.md",
+      "bytes": 9702,
+      "sha256": "594cd1f13e7b0ce876825ee55b9723eb400e5a752164541d86686855a2983982"
+    },
+    {
+      "path": "reports/phase11/opcode_mapping.md",
+      "bytes": 3242,
+      "sha256": "bc03ce8dafefc2cabfd206e1d80d4a71e840bc5c491e61c6d0827fa46adeecc8"
+    },
+    {
+      "path": "reports/phase11/parser_design.md",
+      "bytes": 5344,
+      "sha256": "a314af8d3c44f8a85777714aee1b7025de0eb46c2a7cf522505705c7dfad43ee"
+    },
+    {
+      "path": "reports/phase11/phase10_audit.md",
+      "bytes": 3523,
+      "sha256": "71dbd93b77f42a2c8e180bfdeb281f956e4f7fde7696c7451530779fb44b4ea3"
+    },
+    {
+      "path": "reports/phase11/unresolved_questions.md",
+      "bytes": 3558,
+      "sha256": "90f741a5a2d85f0947c5f0a43bbd5c967c1245a7b4ed3642ceaf9c0d3ad55f56"
+    },
+    {
+      "path": "reports/phase11/vmp_format_reconstruction.md",
+      "bytes": 10461,
+      "sha256": "e15d7d7a8a4faed8096b99cd55ebd2f8afd4a3f31dca502f01766ad57591c7ff"
+    },
+    {
+      "path": "reports/phase6/README.md",
+      "bytes": 2282,
+      "sha256": "c1b84fc6595cf3175b7bba6f322451bf273d92724b070be4b5e05fe479abd0ca"
+    },
+    {
+      "path": "reports/phase6/native-analysis.md",
+      "bytes": 1819,
+      "sha256": "22b8dc4dfa8dfec101f9aec54be75d023eca55f2f903b709f88b7fcf3f91e01f"
+    },
+    {
+      "path": "reports/phase6/vmp-format.md",
+      "bytes": 962,
+      "sha256": "39d38058ff1964d22fc2879782b3e128e2a94143c85815a31d9a08ec5ec00d80"
+    },
+    {
+      "path": "reports/phase7/detection-inventory.md",
+      "bytes": 2180,
+      "sha256": "f65ca87b153ebdc59e0a985dd98eb6d82e72f4340feb0668bd195d08784e918f"
+    },
+    {
+      "path": "reports/phase8/README.md",
+      "bytes": 1760,
+      "sha256": "ed706c5297c4c6dfff4efa805dbed04eb5f48e8ff5e3ed58e23c60cff9478eda"
+    },
+    {
+      "path": "reports/phase8/error-paths.md",
+      "bytes": 1374,
+      "sha256": "d40fccd26ea8efb16157e3cf6000dd1daf60b9f9eaae588c633f82b35d2b160b"
+    },
+    {
+      "path": "reports/phase8/vmp-analysis.md",
+      "bytes": 1198,
+      "sha256": "a9fe3e3acebdfdc54af6d8aea653e2bcf285193f55ce24d0995fc66c2e77f0b6"
+    },
+    {
+      "path": "reports/phase9/README.md",
+      "bytes": 1436,
+      "sha256": "0c98a23f75c09fd63eabb0aed28dc22ba469e8a3272dd4efe0b4e8cbd62ba83a"
+    },
+    {
+      "path": "reports/phase9/network-forensics.md",
+      "bytes": 1527,
+      "sha256": "728bef2a262a0f321a4bf350027142d9ace69176187076fc335abbedf85237c5"
+    },
+    {
+      "path": "scripts/check_public_release.py",
+      "bytes": 5096,
+      "sha256": "3896d4cca5e47d8512aa70e4c2c7ef239796009c65d5ff64a29f6a01d7333cfc"
+    },
+    {
+      "path": "scripts/phase11/analyze_native_opcodes.py",
+      "bytes": 3604,
+      "sha256": "2a70aa459b9688408138d2bb22c521943a796e7119e4319ca22cc926ffe9bcf6"
+    },
+    {
+      "path": "scripts/phase11/vmp_format.py",
+      "bytes": 17535,
+      "sha256": "90824477d1237391d04b687e09c80747ab9c11971516ec106b8526c864f6d5ef"
+    },
+    {
+      "path": "tests/test_docs.py",
+      "bytes": 2520,
+      "sha256": "0db5149736feba64952b52adf201e3af9ff2922715b728c2dc91dce815db80c1"
+    },
+    {
+      "path": "tests/test_public.py",
+      "bytes": 5691,
+      "sha256": "b94618bffad6b763b15987ee362b21550fba8f6bb9d251c584f0fecfe309ccba"
+    }
+  ]
+}

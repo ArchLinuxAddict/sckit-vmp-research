@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "description": "Preserved private inputs used for the research. Files are not redistributed.",
+  "redistribution": "private inputs withheld; hashes are provided only so a lawful holder can verify a matching copy",
+  "artifacts": [
+    {
+      "label": "preserved Android APK",
+      "bytes": 5983863,
+      "sha256": "96330aaf76d1c2ea99591189d10f06ecd454504721e96af8ad777e8e512d7292"
+    },
+    {
+      "label": "SckitVMP asset",
+      "bytes": 562963,
+      "sha256": "4108ca26ce6ebcb9252e644c4d1d00a08693ad232990649ef06a72cbe636d232"
+    },
+    {
+      "label": "libsnehakimakichut.so (arm64-v8a)",
+      "bytes": 443280,
+      "sha256": "091b06ee3cdf2ea3521a45542aebd25f60219484b93ae62ad204f5cc868da230"
+    }
+  ]
+}

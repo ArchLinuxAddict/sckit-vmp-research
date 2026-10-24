@@ -1,0 +1,48 @@
+{
+  "phase": 11,
+  "status": "sanitized public release candidate",
+  "vmp": {
+    "magic": "SckitVMP",
+    "section_pairs": 6,
+    "strings": 6004,
+    "class_table_entries": 677,
+    "exception_vectors": 353,
+    "reference_records": 937,
+    "method_records": 1845,
+    "code_records": 724,
+    "code_record_id_matches": 724,
+    "code_flag_0": 636,
+    "code_flag_1": 88,
+    "section5_bytes": 22118
+  },
+  "dispatch": {
+    "ir_record_bytes": 32,
+    "opcodes": 159,
+    "unique_handlers": 116,
+    "dispatch_address_ghidra": "0x1286b8",
+    "tag_table_address_ghidra": "0x10b660",
+    "jump_table_address_ghidra": "0x108ff0"
+  },
+  "native_bridge": {
+    "invoke_ghidra": "0x13eb98",
+    "inner_invoke_ghidra": "0x12824c",
+    "decrypt_string_ghidra": "0x13f4ac",
+    "string_ids": 6004,
+    "method_ids": 1845
+  },
+  "tests": {
+    "private_phase11": "24 run, 24 passed, 0 skipped, 0 failed",
+    "private_combined": "117 run, 115 passed, 2 skipped, 0 failed",
+    "public_suite": "14 run, 14 passed, 0 skipped, 0 failed"
+  },
+  "redistribution": "Private raw evidence and third-party binaries are not published; see docs/publication-audit.md.",
+  "unresolved": [
+    "method-code payload to IR opcode decoder",
+    "exact 500/900/300 predicates and detector methods",
+    "anti-crack exception throw site and causal predicate",
+    "RcIsRooted producer/consumer/semantics",
+    "activation schema and STATUS: ONLINE",
+    "TLS application payloads"
+  ],
+  "private_redistribution": "Private raw evidence and third-party binaries are not published; see docs/publication-audit.md."
+}
