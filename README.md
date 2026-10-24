@@ -6,6 +6,8 @@
 official project or an endorsement by any vendor, application developer, or
 government body. No vendor authorization is claimed.
 
+**Published repository:** [ArchLinuxAddict/sckit-vmp-research](https://github.com/ArchLinuxAddict/sckit-vmp-research) (public).
+
 ## 1. Project status and scope
 
 This repository is a **sanitized research release** of a completed Phase VI–XI
@@ -566,11 +568,13 @@ inventory and attribution.
 
 ## 30. Final status and report links
 
-**Status:** sanitized local release candidate. The private investigation is
-complete through Phase XI; the public artifact audit is recorded in
-[publication-audit.md](docs/publication-audit.md). Remote GitHub publication is
-not claimed unless a verified repository URL and commit are added after an
-authenticated push.
+**Status:** published at
+[ArchLinuxAddict/sckit-vmp-research](https://github.com/ArchLinuxAddict/sckit-vmp-research)
+(public, default branch `main`). The initial release commit
+`e63475171d3155a42d0b76883a7c82952ca700d3` was pushed and verified; this
+documentation update is the follow-up release commit. The public artifact audit
+and post-push checks are recorded in
+[publication-audit.md](docs/publication-audit.md).
 
 Detailed reports:
 

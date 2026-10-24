@@ -1,6 +1,6 @@
 {
   "phase": 11,
-  "status": "sanitized public release candidate",
+  "status": "published",
   "vmp": {
     "magic": "SckitVMP",
     "section_pairs": 6,
@@ -44,5 +44,6 @@
     "activation schema and STATUS: ONLINE",
     "TLS application payloads"
   ],
-  "private_redistribution": "Private raw evidence and third-party binaries are not published; see docs/publication-audit.md."
+  "private_redistribution": "Private raw evidence and third-party binaries are not published; see docs/publication-audit.md.",
+  "repository": "https://github.com/ArchLinuxAddict/sckit-vmp-research"
 }

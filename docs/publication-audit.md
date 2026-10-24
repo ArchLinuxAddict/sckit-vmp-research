@@ -85,24 +85,26 @@ item that exceeds permissible use, it can be reviewed/removed.
 
 ## 8. GitHub / remote status
 
-At audit time:
+Publication was performed with GitHub CLI 2.103.2 after authenticated login to
+**ArchLinuxAddict**. Verified repository:
 
-- `gh` (GitHub CLI) was **not installed**;
-- the private project was **not a Git repository**;
-- no GitHub remote/owner/visibility was configured or verified;
-- therefore no public URL, push, or remote commit is claimed.
+- URL: https://github.com/ArchLinuxAddict/sckit-vmp-research
+- visibility: **PUBLIC**
+- default branch: `main`
+- initial verified release commit:
+  `e63475171d3155a42d0b76883a7c82952ca700d3`
+- remote tree: 51 blobs; no excluded binary/capture paths found
+- license metadata: absent (`null`), matching the intentional no-license
+  decision
 
-A local Git repository was initialized for the sanitized tree. The first
-validated local commit was `f2f01bbbdf513eae3d300a776a8caaf0cc6ab723`
-(`Document sanitized SckitVMP Phase VI-XI research`); this audit edit and the
-regenerated public-file allowlist form the follow-up local commit. No remote was
-added.
+Local history before publication:
 
-A local Git repository may be initialized with the sanitized tree. Public
-publication requires an authenticated remote, final staging review, a fresh test
-and scan, and post-push verification of URL/owner/visibility/contents. If
-authentication is unavailable, this local release candidate is the stopping
-point.
+- `f2f01bb` — `Document sanitized SckitVMP Phase VI-XI research`
+- `e634751` — `Record local release audit and public allowlist`
+
+This documentation update is the final post-push commit; the repository HEAD at
+verification is reported in the release summary. The remote `origin` points only
+to the repository above.
 
 ## 9. Residual release risks
 
