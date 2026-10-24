@@ -92,6 +92,12 @@ At audit time:
 - no GitHub remote/owner/visibility was configured or verified;
 - therefore no public URL, push, or remote commit is claimed.
 
+A local Git repository was initialized for the sanitized tree. The first
+validated local commit was `f2f01bbbdf513eae3d300a776a8caaf0cc6ab723`
+(`Document sanitized SckitVMP Phase VI-XI research`); this audit edit and the
+regenerated public-file allowlist form the follow-up local commit. No remote was
+added.
+
 A local Git repository may be initialized with the sanitized tree. Public
 publication requires an authenticated remote, final staging review, a fresh test
 and scan, and post-push verification of URL/owner/visibility/contents. If
